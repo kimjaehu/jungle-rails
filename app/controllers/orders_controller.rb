@@ -22,7 +22,7 @@ class OrdersController < ApplicationController
   private
 
   def empty_cart!
-    # empty hash means no products in cart :)
+    # empty hash means no products i\c n cart :)
     update_cart({})
   end
 
