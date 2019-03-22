@@ -34,8 +34,8 @@ class ApplicationController < ActionController::Base
   end 
   helper_method :current_user 
 
-  def authenticate_user! 
-    redirect_to ‘/login’ unless current_user 
+  def authorize
+    redirect_to '/login' unless current_user
   end 
 
 end

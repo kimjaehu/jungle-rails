@@ -6,10 +6,11 @@ class UsersController < ApplicationController
   def create
     @user = User.new(first_name: params[:first_name], last_name: params[:last_name],
     email: params[:email],password: params[:password])
+    
     if @user.save
       session[:user_id] = @user.id
       flash[:success] = "User Created Successfully"
-      redirect_to '/'
+      redirect_to '/login'
     else 
       flash[:warning] = "Invalid Email or Password"
       redirect_to '/signup'

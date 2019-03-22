@@ -1,9 +1,13 @@
 class CartsController < ApplicationController
 
   def show
+    if not current_user
+      flash[:warning] = 'Please log in or sign up to make perchases!'
+    end
   end
 
   def add_item
+    
     product_id = params[:product_id].to_s
     modify_cart_delta(product_id, +1)
 

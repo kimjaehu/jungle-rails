@@ -1,5 +1,8 @@
 <h1>Login</h1>
 <%= form_tag '/login', method: :post do %>
+  <% flash.each do |key, value| %>
+    <div class="alert alert-<%= key %>"><%= value %></div>
+  <% end %>
   <div>
     <%= label_tag :email %>
     <%= text_field_tag :email%>
@@ -11,5 +14,5 @@
   <div>Don't have an account?
   <%= link_to 'Sign Up', signup_path %>
   </div>
-    <%= submit_tag 'Submit' %>
+    <%= submit_tag 'Log In', class: 'btn btn-primary'%>
 <%end%>
