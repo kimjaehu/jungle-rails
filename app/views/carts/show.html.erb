@@ -4,6 +4,8 @@
     <h1>My Cart</h1>
   </header>
 
+  <% if enhanced_cart.count > 0 %> 
+
   <div class="panel panel-default items">
     <table class="table table-bordered">
       <thead>
@@ -56,6 +58,17 @@
     <% end %>
   </div>
 </div>
+  <% end %>
+
+  <% else %>
+    <div> 
+    <%= image_tag 'https://www.shareicon.net/download/2015/11/03/666131_new.svg' %>
+      <h2>Cart is empty</h2>
+      <div>Looks like you have no items in your shopping cart.<div>
+      <div>Click <%= link_to 'here', [:root] %> to continue shopping </div>
+      
+      
+    </div>
   <% end %>
 
 </section>
