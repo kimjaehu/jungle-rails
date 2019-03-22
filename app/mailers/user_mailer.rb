@@ -3,6 +3,6 @@ class UserMailer < ApplicationMailer
 
   def confirmation_email(order)
     @order = order
-    mail(to: @order.email, subject: 'Your order has successfully been placed!')
+    mail(to: @order.email, subject: "The order #: #{@order.id} has been processed.")
   end
 end
