@@ -132,5 +132,40 @@ cat3.products.create!({
   price: 2_483.75
 })
 
+Review.create(
+  product_id: 1,
+  user_id: 1,
+  description: 'This item is awesome', 
+  rating: 4)
+
+Review.create(
+  product_id: 3, 
+  user_id: 1, 
+  description: 'She advised him to come back at once.', 
+  rating: 2)
+
+Review.create(
+  product_id: 1, 
+  user_id: 1, 
+  description: 'The mysterious diary records the voice.', 
+  rating: 1)
+
+Review.create(
+  product_id: 4, 
+  user_id: 1, 
+  description: 'I really want to go to work, but I am too sick to drive.', 
+  rating: 2)
+
+Review.create(
+  product_id: 4, 
+  user_id: 1, 
+  description: 'The old apple revels in its authority.', 
+  rating: 3)
+
+Review.create(
+  product_id: 4, 
+  user_id: 1, 
+  description: 'Writing a list of random sentences is harder than I initially thought it would be.', 
+  rating: 5)
 
 puts "DONE!"

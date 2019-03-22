@@ -27,5 +27,13 @@
     </div>
 
   </article>
+  <article>
+  
+  <% @Review.each do |review| %>
+    <%= render 'review', review: item.product, rating: re.to_i %>
+  <% end %>
+
+
+  </article>
 
 </section>
