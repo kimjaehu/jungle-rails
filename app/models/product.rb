@@ -5,7 +5,7 @@ class Product < ActiveRecord::Base
 
   belongs_to :category
 
-  has_many :reviews
+  has_many :reviews, :foreign_key => 'id', :class_name => 'Review'
 
   validates :name, presence: true
   validates :price, presence: true

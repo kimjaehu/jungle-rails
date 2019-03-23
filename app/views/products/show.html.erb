@@ -28,12 +28,24 @@
 
   </article>
   <article>
-  
-  <% @Review.each do |review| %>
-    <%= render 'review', review: item.product, rating: re.to_i %>
-  <% end %>
+  <% @reviews.each do |review| %>
+    <div class="col-sm-8">
+      
 
+        <div class="col-med-6">
+          <dl class="dl-horizontal">
+            <dt>Rating :</dt>
+            <dd><%= review.rating %></dd>
+            <dd><%= review.created_at.strftime("%B %-d, %Y") %></dt>
+            <dt>Review :</dt>
+            <dd><%= review.description %></dt>
+            
+          </dl>
+        </div>
 
+      
+    </div>
+    <% end %>
   </article>
 
 </section>
