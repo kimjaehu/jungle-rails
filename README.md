@@ -46,14 +46,14 @@ bin/rails s -b 0.0.0.0
 
 ## Screenshots
 
-!["Jungle"](https://raw.githubusercontent.com/kimjaehu/chattyapp/master/docs/initial.png)
-!["Login/Register"](https://raw.githubusercontent.com/kimjaehu/chattyapp/master/docs/usernameChange.png)
-!["Product detail"](https://github.com/kimjaehu/chattyapp/blob/master/docs/usermessage.png)
-!["Cart"](https://raw.githubusercontent.com/kimjaehu/chattyapp/master/docs/differentcolor.png)
-!["Stripe payment"](https://raw.githubusercontent.com/kimjaehu/chattyapp/master/docs/imagemessage.png)
-!["Order confirmation"](https://raw.githubusercontent.com/kimjaehu/chattyapp/master/docs/imagemessage2.png)
-!["Admin authentication"](https://raw.githubusercontent.com/kimjaehu/chattyapp/master/docs/imagemessage2.png)
-!["Admin features"](https://raw.githubusercontent.com/kimjaehu/chattyapp/master/docs/imagemessage2.png)
+!["Jungle"](https://raw.githubusercontent.com/kimjaehu/jungle-rails/master/docs/jungle_main.png)
+!["Login/Register"](https://raw.githubusercontent.com/kimjaehu/jungle-rails/master/docs/login.png)(https://raw.githubusercontent.com/kimjaehu/jungle-rails/master/docs/register.png)
+!["Product detail"](https://raw.githubusercontent.com/kimjaehu/jungle-rails/master/docs/product_detail.png)
+!["Cart"](https://raw.githubusercontent.com/kimjaehu/jungle-rails/master/docs/cart.png)
+!["Stripe payment"](https://raw.githubusercontent.com/kimjaehu/jungle-rails/master/docs/stripe.png)
+!["Order confirmation"](https://raw.githubusercontent.com/kimjaehu/jungle-rails/master/docs/order_confirmation.png)
+!["Admin authentication"](https://raw.githubusercontent.com/kimjaehu/jungle-rails/master/docs/admin_authentication.png)
+!["Admin features"](https://raw.githubusercontent.com/kimjaehu/jungle-rails/master/docs/admin_features.png)
 
 ## Dependencies
 
