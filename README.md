@@ -47,7 +47,8 @@ bin/rails s -b 0.0.0.0
 ## Screenshots
 
 !["Jungle"](https://raw.githubusercontent.com/kimjaehu/jungle-rails/master/docs/jungle_main.png)
-!["Login/Register"](https://raw.githubusercontent.com/kimjaehu/jungle-rails/master/docs/login.png)(https://raw.githubusercontent.com/kimjaehu/jungle-rails/master/docs/register.png)
+!["Login"](https://raw.githubusercontent.com/kimjaehu/jungle-rails/master/docs/login.png)
+![Register](https://raw.githubusercontent.com/kimjaehu/jungle-rails/master/docs/register.png)
 !["Product detail"](https://raw.githubusercontent.com/kimjaehu/jungle-rails/master/docs/product_detail.png)
 !["Cart"](https://raw.githubusercontent.com/kimjaehu/jungle-rails/master/docs/cart.png)
 !["Stripe payment"](https://raw.githubusercontent.com/kimjaehu/jungle-rails/master/docs/stripe.png)
