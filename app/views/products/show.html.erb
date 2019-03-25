@@ -61,6 +61,9 @@
               <% review.rating.to_i.times do  %>
                 <span class="glyphicon glyphicon-star"></span>
               <% end %>
+              <% (5 - review.rating).to_i.times do  %>
+                <span class="glyphicon glyphicon-star-empty"></span>
+              <% end %>
             </dd>
             <dd><%= review.created_at.strftime("%B %-d, %Y") %></dt>
             <dt>Review &nbsp;</dt>
